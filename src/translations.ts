@@ -119,9 +119,9 @@ export const translations = {
       subtitle: 'What Our',
       accent: 'Clients Say',
       items: [
-        { name: 'John Smith', role: 'CEO, TechFlow', text: 'ESYSTEMLK transformed our legacy system into a modern SaaS powerhouse. Their engineering precision is unmatched.' },
-        { name: 'Sarah Perera', role: 'Founder, EcoLanka', text: 'The team delivered our e-commerce platform ahead of schedule. The UX is incredible and our sales have doubled.' },
-        { name: 'Michael Chen', role: 'CTO, GlobalLogistics', text: 'Exceptional API architecture. They understood our complex requirements and built a highly scalable solution.' }
+        { name: 'Client A', role: 'CEO, Tech Company', text: 'ESYSTEMLK transformed our legacy system into a modern SaaS powerhouse. Their engineering precision is unmatched.' },
+        { name: 'Client B', role: 'Founder, E-commerce Brand', text: 'The team delivered our e-commerce platform ahead of schedule. The UX is incredible and our sales have doubled.' },
+        { name: 'Client C', role: 'CTO, Logistics Firm', text: 'Exceptional API architecture. They understood our complex requirements and built a highly scalable solution.' }
       ]
     },
     cta: {
@@ -272,9 +272,9 @@ export const translations = {
       subtitle: 'අපගේ සේවාදායකයින්',
       accent: 'පවසන දේ',
       items: [
-        { name: 'ජෝන් ස්මිත්', role: 'ප්‍රධාන විධායක නිලධාරී, TechFlow', text: 'ESYSTEMLK අපගේ පැරණි පද්ධතිය නවීන SaaS බලවේගයක් බවට පත් කළේය. ඔවුන්ගේ ඉංජිනේරු නිරවද්‍යතාවය අසමසමයි.' },
-        { name: 'සාරා පෙරේරා', role: 'නිර්මාතෘ, EcoLanka', text: 'කණ්ඩායම නියමිත වේලාවට පෙර අපගේ ඊ-වාණිජ්‍ය වේදිකාව ලබා දුන්නේය. පරිශීලක අත්දැකීම (UX) ඇදහිය නොහැකි අතර අපගේ විකුණුම් දෙගුණ වී ඇත.' },
-        { name: 'මයිකල් චෙන්', role: 'ප්‍රධාන තාක්ෂණ නිලධාරී, GlobalLogistics', text: 'සුවිශේෂී API ගෘහ නිර්මාණ ශිල්පය. ඔවුන් අපගේ සංකීර්ණ අවශ්‍යතා මැනවින් අවබෝධ කරගෙන ඉහළ මට්ටමේ විසඳුමක් ගොඩනැගුවා.' }
+        { name: 'සේවාදායකයා A', role: 'ප්‍රධාන විධායක නිලධාරී, තාක්ෂණ සමාගම', text: 'ESYSTEMLK අපගේ පැරණි පද්ධතිය නවීන SaaS බලවේගයක් බවට පත් කළේය. ඔවුන්ගේ ඉංජිනේරු නිරවද්‍යතාවය අසමසමයි.' },
+        { name: 'සේවාදායකයා B', role: 'නිර්මාතෘ, ඊ-වාණිජ්‍ය සන්නාමය', text: 'කණ්ඩායම නියමිත වේලාවට පෙර අපගේ ඊ-වාණිජ්‍ය වේදිකාව ලබා දුන්නේය. පරිශීලක අත්දැකීම (UX) ඇදහිය නොහැකි අතර අපගේ විකුණුම් දෙගුණ වී ඇත.' },
+        { name: 'සේවාදායකයා C', role: 'ප්‍රධාන තාක්ෂණ නිලධාරී, සැපයුම් සමාගම', text: 'සුවිශේෂී API ගෘහ නිර්මාණ ශිල්පය. ඔවුන් අපගේ සංකීර්ණ අවශ්‍යතා මැනවින් අවබෝධ කරගෙන ඉහළ මට්ටමේ විසඳුමක් ගොඩනැගුවා.' }
       ]
     },
     cta: {

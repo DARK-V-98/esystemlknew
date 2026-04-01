@@ -3,11 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+
+    <!-- Primary Meta -->
+    <title>ESYSTEMLK | Elite Software Engineering Company Sri Lanka</title>
+    <meta name="description" content="ESYSTEMLK is Sri Lanka's leading software engineering company. We build custom web apps, mobile apps, SaaS platforms, e-commerce solutions, and AI integrations." />
+    <meta name="keywords" content="software engineering sri lanka, web development sri lanka, mobile app development, SaaS development, e-commerce platform, AI integration, custom software, ESYSTEMLK, rajagiriya" />
+    <meta name="author" content="ESYSTEMLK" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="canonical" href="https://esystemlk.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ESYSTEMLK" />
+    <meta property="og:url" content="https://esystemlk.com/" />
+    <meta property="og:title" content="ESYSTEMLK | Elite Software Engineering Company Sri Lanka" />
+    <meta property="og:description" content="Sri Lanka's leading software engineering company. Custom web apps, mobile apps, SaaS, e-commerce, and AI integrations." />
+    <meta property="og:image" content="https://esystemlk.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@esystemlk" />
+    <meta name="twitter:title" content="ESYSTEMLK | Elite Software Engineering Sri Lanka" />
+    <meta name="twitter:description" content="Sri Lanka's leading software engineering company. Custom web apps, mobile apps, SaaS, e-commerce, and AI integrations." />
+    <meta name="twitter:image" content="https://esystemlk.com/og-image.jpg" />
+
+    <!-- Geo -->
+    <meta name="geo.region" content="LK" />
+    <meta name="geo.placename" content="Sri Lanka" />
+
+    <!-- Structured Data: WebSite + Sitelinks -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ESYSTEMLK",
+      "url": "https://esystemlk.com/",
+      "description": "Sri Lanka's leading software engineering company building scalable digital systems.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://esystemlk.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ESYSTEMLK",
+      "url": "https://esystemlk.com/",
+      "logo": "https://esystemlk.com/logo.png",
+      "description": "Elite software engineering company in Sri Lanka specializing in web apps, mobile apps, SaaS, e-commerce, and AI integrations.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rajagiriya",
+        "addressCountry": "LK"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": ["English", "Sinhala"]
+      },
+      "sameAs": [
+        "https://www.facebook.com/esystemlk",
+        "https://www.linkedin.com/company/esystemlk",
+        "https://github.com/esystemlk"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: Sitelinks (WebPage entries for each section) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://esystemlk.com/#services",
+          "url": "https://esystemlk.com/#services",
+          "name": "Our Services",
+          "description": "Custom web applications, e-commerce platforms, SaaS development, mobile apps, API development, AI integration, DevOps and cloud solutions.",
+          "isPartOf": { "@id": "https://esystemlk.com/" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://esystemlk.com/#portfolio",
+          "url": "https://esystemlk.com/#portfolio",
+          "name": "Portfolio",
+          "description": "Featured projects including SaaS dashboards, e-commerce platforms, AI chatbots, mobile apps, and cloud infrastructure.",
+          "isPartOf": { "@id": "https://esystemlk.com/" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://esystemlk.com/#pricing",
+          "url": "https://esystemlk.com/#pricing",
+          "name": "Pricing",
+          "description": "Flexible pricing plans for businesses of all sizes — Basic, Professional, and Enterprise packages.",
+          "isPartOf": { "@id": "https://esystemlk.com/" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://esystemlk.com/#about",
+          "url": "https://esystemlk.com/#about",
+          "name": "About Us",
+          "description": "Learn about ESYSTEMLK — 8+ years of software engineering excellence in Sri Lanka.",
+          "isPartOf": { "@id": "https://esystemlk.com/" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://esystemlk.com/#contact",
+          "url": "https://esystemlk.com/#contact",
+          "name": "Contact Us",
+          "description": "Get in touch with ESYSTEMLK to start your digital journey.",
+          "isPartOf": { "@id": "https://esystemlk.com/" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://esystemlk.com/#faq",
+          "url": "https://esystemlk.com/#faq",
+          "name": "FAQ",
+          "description": "Frequently asked questions about our software development process, technologies, timelines, and pricing.",
+          "isPartOf": { "@id": "https://esystemlk.com/" }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
