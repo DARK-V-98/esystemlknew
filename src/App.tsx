@@ -8,6 +8,7 @@ import Background from './components/Background';
 import Footer from './components/Footer';
 import SEO from './components/SEO';
 import UpdateNotice from './components/UpdateNotice';
+import WhatsAppButton from './components/WhatsAppButton';
 
 // Lazy load sections for performance
 const Hero = lazy(() => import('./components/Hero'));
@@ -71,6 +72,7 @@ export default function App() {
             </Suspense>
           </main>
           <Footer />
+          <WhatsAppButton />
         </div>
       </LanguageProvider>
     </HelmetProvider>
