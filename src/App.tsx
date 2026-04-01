@@ -7,6 +7,7 @@ import Preloader from './components/Preloader';
 import Background from './components/Background';
 import Footer from './components/Footer';
 import SEO from './components/SEO';
+import UpdateNotice from './components/UpdateNotice';
 
 // Lazy load sections for performance
 const Hero = lazy(() => import('./components/Hero'));
@@ -47,6 +48,7 @@ export default function App() {
     <HelmetProvider>
       <LanguageProvider>
         <SEO />
+        <UpdateNotice />
         <div className="bg-background text-foreground font-sans selection:bg-accent selection:text-white">
           <Preloader />
           <Background />

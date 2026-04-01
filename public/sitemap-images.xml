@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://esystemlk.com/</loc>
+    <image:image>
+      <image:loc>https://esystemlk.com/og-image.jpg</image:loc>
+      <image:title>ESYSTEMLK - Elite Software Engineering Sri Lanka</image:title>
+      <image:caption>ESYSTEMLK premium software engineering company in Sri Lanka</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://esystemlk.com/logo.png</image:loc>
+      <image:title>ESYSTEMLK Logo</image:title>
+      <image:caption>ESYSTEMLK official logo</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://esystemlk.com/#portfolio</loc>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/cyber/800/600</image:loc>
+      <image:title>SaaS Dashboard Project</image:title>
+      <image:caption>Custom SaaS dashboard built by ESYSTEMLK</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/shop/800/600</image:loc>
+      <image:title>E-commerce Platform Project</image:title>
+      <image:caption>E-commerce platform developed by ESYSTEMLK</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/ai/800/600</image:loc>
+      <image:title>AI Chatbot Project</image:title>
+      <image:caption>AI chatbot integration by ESYSTEMLK</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/finance/800/600</image:loc>
+      <image:title>Mobile App Project</image:title>
+      <image:caption>Cross-platform mobile app by ESYSTEMLK</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/logistics/800/600</image:loc>
+      <image:title>Cloud Infrastructure Project</image:title>
+      <image:caption>Cloud infrastructure solution by ESYSTEMLK</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://picsum.photos/seed/social/800/600</image:loc>
+      <image:title>GraphQL API Project</image:title>
+      <image:caption>GraphQL API backend built by ESYSTEMLK</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
