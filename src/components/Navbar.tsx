@@ -1,11 +1,15 @@
 import { motion } from 'motion/react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, LogOut, LogIn } from 'lucide-react';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../LanguageContext';
+import { useAuth } from '../AuthContext';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
 
   const navItems = [
     { name: t.nav.home, href: '#home' },
@@ -62,15 +66,25 @@ export default function Navbar() {
               <span className="text-xs font-mono font-bold uppercase">{language === 'en' ? 'SI' : 'EN'}</span>
             </motion.button>
 
-            <motion.button
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-accent text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-widest red-glow hover:bg-foreground hover:text-white transition-all duration-300 cursor-pointer"
-            >
-              Work With Us
-            </motion.button>
+            {user ? (
+              <div className="flex items-center gap-3">
+                {user.photoURL
+                  ? <img src={user.photoURL} alt={user.displayName || ''} className="w-8 h-8 rounded-full border-2 border-accent" />
+                  : <div className="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-white text-xs font-bold">{(user.displayName || user.email || 'U')[0].toUpperCase()}</div>
+                }
+                <motion.button onClick={logout} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
+                  className="flex items-center gap-1 text-foreground/60 hover:text-accent text-xs font-mono uppercase tracking-widest transition-colors cursor-pointer">
+                  <LogOut size={14} /> Sign Out
+                </motion.button>
+              </div>
+            ) : (
+              <motion.button onClick={() => navigate('/auth')}
+                initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
+                className="flex items-center gap-2 bg-accent text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-widest red-glow hover:bg-foreground transition-all duration-300 cursor-pointer">
+                <LogIn size={15} /> Sign In
+              </motion.button>
+            )}
           </div>
 
           <div className="md:hidden flex items-center gap-4">
